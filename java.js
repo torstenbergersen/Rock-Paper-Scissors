@@ -43,7 +43,8 @@ for (let i = 1; i <= 5; i++) {
   } else if (result.includes("lose")) {
     computerScore++;
   }
-  await new Promise(resolve => setTimeout(resolve, 3000));
+  await new Promise(resolve => setTimeout(resolve, 3000)); 
+  //wait 3 seconds before next round
   }
   
   console.log(`Final score: You ${playerScore}, Computer ${computerScore}`);
